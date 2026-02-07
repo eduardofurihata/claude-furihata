@@ -1,0 +1,7 @@
+{
+  "name": "chat-mode",
+  "version": "1.0.0",
+  "description": "Transforms Claude Code into a pure conversational assistant - no file operations, no commands, just deep analysis and dialogue.",
+  "author": "furihata",
+  "skills": "auto"
+}
