@@ -1,11 +1,16 @@
 {
   "name": "claude-furihata",
-  "description": "Plugins and tools for Claude Code by Eduardo Furihata.",
+  "owner": {
+    "name": "Eduardo Furihata"
+  },
+  "metadata": {
+    "description": "Plugins and tools for Claude Code by Eduardo Furihata."
+  },
   "plugins": [
     {
       "name": "chat-mode",
-      "description": "Transforms Claude Code into a pure conversational assistant — no file operations, no commands, just deep analysis and dialogue.",
-      "path": "chat-skill"
+      "source": "./chat-skill",
+      "description": "Transforms Claude Code into a pure conversational assistant — no file operations, no commands, just deep analysis and dialogue."
     }
   ]
 }
