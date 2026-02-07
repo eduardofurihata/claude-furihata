@@ -16,24 +16,30 @@ Claude Code is built to take action: create files, run commands, edit code. But 
 
 ## Installation
 
-### From GitHub
+### Via Marketplace (Recommended)
+
+Add the marketplace and install the plugin directly from GitHub:
 
 ```bash
-claude plugins add gh:furihata/chat-skill
+# Step 1: Add the marketplace
+/plugins marketplace add eduardofurihata/claude-furihata
+
+# Step 2: Install the plugin
+/plugins install chat-mode
 ```
 
-> Replace `furihata/chat-skill` with the actual GitHub repository path if different.
+That's it. No cloning, no local paths.
 
-### From a Local Directory
+### Via Git Clone
 
-If you cloned the repository manually:
+If you prefer to install manually:
 
 ```bash
 # Clone the repo
-git clone https://github.com/furihata/chat-skill.git
+git clone https://github.com/eduardofurihata/claude-furihata.git
 
-# Install from local path
-claude plugins add /path/to/chat-skill
+# Install the plugin from the chat-skill directory
+claude plugins add ./claude-furihata/chat-skill
 ```
 
 ### Verify Installation
