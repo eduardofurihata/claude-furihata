@@ -1,7 +1,7 @@
 {
   "name": "chat-mode",
-  "version": "1.0.0",
-  "description": "Transforms Claude Code into a pure conversational assistant - no file operations, no commands, just deep analysis and dialogue.",
+  "version": "1.1.0",
+  "description": "Transforms Claude Code into a conversational assistant - all read-only tools available, no file creation or modification.",
   "author": {
     "name": "Eduardo Furihata"
   }
